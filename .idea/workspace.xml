@@ -11,12 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="230f12d4-4139-49bf-b941-7180880a9f7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/Colors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/Colors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/BottomTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/MainTabNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/MainTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/MainTabNavigator.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TabOneScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ChatsScreen.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -55,7 +60,11 @@
       <option name="presentableId" value="Default" />
       <updated>1603988771404</updated>
       <workItem from="1603988774359" duration="430000" />
-      <workItem from="1603989217390" duration="13588000" />
+      <workItem from="1603989217390" duration="19754000" />
+      <workItem from="1604535454380" duration="331000" />
+      <workItem from="1604856764772" duration="763000" />
+      <workItem from="1605156497074" duration="7950000" />
+      <workItem from="1605197737487" duration="178000" />
     </task>
     <servers />
   </component>
@@ -72,6 +81,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="305" y="93" width="800" height="717" key="#Intentions" timestamp="1604026225235">
@@ -82,6 +92,10 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="501" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.816@0.23.1440.816" timestamp="1604022962406" />
+    <state x="529" y="177" key="RollbackChangesDialog" timestamp="1605163499829">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="529" y="177" key="RollbackChangesDialog/0.23.1440.814@0.23.1440.814" timestamp="1605163499829" />
     <state x="371" y="82" width="670" height="678" key="search.everywhere.popup" timestamp="1604022277399">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
