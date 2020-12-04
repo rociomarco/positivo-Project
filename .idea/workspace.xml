@@ -11,11 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="230f12d4-4139-49bf-b941-7180880a9f7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/rociomarco.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ChatListItems/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ChatListItems/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/ChatRoomScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ChatRoomScreen.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +64,7 @@
       <workItem from="1605156497074" duration="7950000" />
       <workItem from="1605197737487" duration="2931000" />
       <workItem from="1605243676467" duration="3519000" />
-      <workItem from="1607018115925" duration="16269000" />
+      <workItem from="1607018115925" duration="21709000" />
     </task>
     <servers />
   </component>
