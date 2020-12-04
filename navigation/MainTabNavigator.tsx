@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import {Entypo, Ionicons} from '@expo/vector-icons';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
 import * as React from 'react';
@@ -9,6 +9,8 @@ import useColorScheme from '../hooks/useColorScheme';
 import ChatsScreen from '../screens/ChatsScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
 import { MainTabParamList, TabOneParamList, TabTwoParamList } from '../types';
+import {NavigationContainer} from "@react-navigation/native";
+import ContactsScreen from "../screens/ContactsScreen";
 
 const MainTab = createMaterialTopTabNavigator<MainTabParamList>();
 
@@ -35,23 +37,23 @@ export default function MainTabNavigator() {
           showIcon: true,
       }}>
       <MainTab.Screen
-        name="Camera"
-        component={TabOneNavigator}
+        name="Home"
+        component={TabTwoScreen}
         options={{
-            tabBarIcon: ({ color }) => <FontAwesome name="camera" size={18} color="white"/>,
+            tabBarIcon: ({ color }) => <Entypo name="home" size={26} color="white" />,
             tabBarLabel:() => null
         }}
       />
       <MainTab.Screen
-        name="Chats"
-        component={ChatsScreen}
+          name="Contact"
+          component={ContactsScreen}
       />
       <MainTab.Screen
-          name="Contacts"
-          component={TabTwoNavigator}
+          name="Chats"
+          component={ChatsScreen}
       />
       <MainTab.Screen
-          name="Browse"
+          name="Groups"
           component={TabTwoNavigator}
       />
 

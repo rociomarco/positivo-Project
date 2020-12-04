@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-positivoproject-dev-22025-authRole",
+      "UnauthRoleArn": "arn:aws:iam::654560397342:role/amplify-positivoproject-dev-22025-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::654560397342:role/amplify-positivoproject-dev-22025-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-positivoproject-dev-22025-deployment",
+      "UnauthRoleName": "amplify-positivoproject-dev-22025-unauthRole",
+      "StackName": "amplify-positivoproject-dev-22025",
+      "StackId": "arn:aws:cloudformation:us-east-1:654560397342:stack/amplify-positivoproject-dev-22025/2eeca520-3601-11eb-b3be-1253d15d20e2",
+      "AmplifyAppId": "d3l6nju4wor7wh"
+    }
+  }
+}

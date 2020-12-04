@@ -5,7 +5,7 @@ import{useRoute} from '@react-navigation/native';
 
 import chatRoomData from '../data/Chats';
 import ChatMessage from "../components/ChatMessage";
-import BGPos from '../assets/images/BGPos.png';
+import BGPositivo from '../assets/images/BGPositivo.png';
 import InputBox from "../components/InputBox";
 
 
@@ -14,7 +14,7 @@ const ChatRoomScreen = () => {
     //console.log(route.params)
 
     return (
-        <ImageBackground source={BGPos} style={{width:'100%', height:'100%'}}>
+        <ImageBackground source={BGPositivo} style={{width:'100%', height:'100%'}}>
             <FlatList
                 data={chatRoomData.messages}
                 renderItem={({item}) => <ChatMessage message={item}/>}
