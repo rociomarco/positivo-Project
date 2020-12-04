@@ -2,7 +2,7 @@ import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/
 import { createStackNavigator } from '@react-navigation/stack';
 import * as React from 'react';
 import {ColorSchemeName, Image, View} from 'react-native';
-import { FontAwesome5 } from '@expo/vector-icons';
+import {FontAwesome5, MaterialIcons} from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import NotFoundScreen from '../screens/NotFoundScreen';
@@ -10,6 +10,7 @@ import { RootStackParamList } from '../types';
 import MainTabNavigator from './MainTabNavigator';
 import LinkingConfiguration from './LinkingConfiguration';
 import Colors from "../constants/Colors";
+import ChatRoomScreen from "../screens/ChatRoomScreen";
 
 // If you are not familiar with React Navigation, we recommend going through the
 // "Fundamentals" guide: https://reactnavigation.org/docs/getting-started
@@ -70,6 +71,26 @@ function RootNavigator() {
               )
           }}
       />
+
+      <Stack.Screen
+          name="ChatRoom"
+          component={ChatRoomScreen}
+          options={({route}) => ({
+              title: route.params.name,
+              headerRight: () => (
+                  <View style={{
+                      flexDirection: 'row',
+                      width: 100,
+                      justifyContent: 'space-between',
+                      marginRight:10 }}>
+                      <FontAwesome5 name="video" size={22} color={'white'}/>
+                      <MaterialIcons name="call" size={22} color={'white'}/>
+                      <MaterialCommunityIcons name="dots-vertical" size={22} color={'white'}/>
+                  </View>
+              )
+          })}
+      />
+
       <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
     </Stack.Navigator>
   );
